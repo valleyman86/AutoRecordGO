@@ -13,7 +13,7 @@ This script can be run (or compiled actually) from AutoHotKey. I am not going to
 Anyhow this script does 3 main things. It does not read memory or do anything with the actual client so no reason anyone would get banned for this of course. You can edit out what you like if you want. I commented stuff a bit so you can see what to remove. 
 
 **Requirements:**
->* [AutoHotKey](http://www.autohotkey.com/)
+>* [AutoHotKey v1.1.17+](http://ahkscript.org/download/)
 >* Enable console in settings
 >* Add "-condebug" (without quotes) to your launch options in steam under CS:GO properties. This just outputs console to a log file (as well as the console).
 >* Create a Saved_Demos folder in the csgo directory
