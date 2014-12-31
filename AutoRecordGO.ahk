@@ -1,4 +1,6 @@
 ﻿;Created By valleyman86
+; needs to be #Persistent, otherwise events will kick few times and script exits.
+#Persistent
  
 PlayerName := "MurderDev\.com"
 ConsolePath := "C:\Program Files (x86)\Steam\SteamApps\common\Counter-Strike Global Offensive\csgo\console.log"
