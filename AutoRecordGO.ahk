@@ -63,9 +63,9 @@ MonitorConsoleLog:
  
    ;LastLine := File.ReadLine()
    while (LastLine := File.ReadLine()) {
-       if (RegExMatch(LastLine,"i)^Map: (.*)", MapName)) {
-           ;MsgBox %MapName1%
-	   gMapName := MapName1 . "_"
+       if (RegExMatch(LastLine,"i)^Map: (.*/)?(.*)", MapName)) {
+           ;MsgBox %MapName2%
+	   gMapName := MapName2 . "_"
        }
 
        if (RegExMatch(LastLine,"i)" . PlayerName . " connected")) {
